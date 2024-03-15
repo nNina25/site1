@@ -1,0 +1,141 @@
+body{
+	background-color: Lavender;
+}
+marquee{
+	font-size: 50px;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: Turquoise;
+}
+@keyframes example1{
+	from{background-color: Aqua;}
+	to{background-color:  Teal;}
+}
+#d1{
+animation-name: example1;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes example2{
+	0%{background-color: Indigo; left: 0px; top: 0px}
+	25%{background-color: Purple; left: 200px; top: 0px}
+	50%{background-color: DarkViolet; left: 200px; top: 200px}
+	75%{background-color: Fuchsia; left: 200px; top: 0px}
+	100%{background-color: Violet; left: 0px; top: 0px}
+}
+#d2{
+animation-name: example2;
+position: relative;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes example3{
+	0%{background-color: OrangeRed; left: 0px; top: 0px}
+	25%{background-color: Tomato; left: 200px; top: 0px}
+	50%{background-color: DarkOrange; left: 200px; top: 200px}
+	75%{background-color: Coral; left: 200px; top: 0px}
+	100%{background-color: Orange; left: 0px; top: 0px}
+}
+#d3{
+animation-name: example3;
+position: relative;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+}
+@keyframes example4{
+	0%{background-color: DarkRed; left: 0px; top: 0px}
+	25%{background-color: Red; left: 200px; top: 0px}
+	50%{background-color: Firebrick; left: 200px; top: 200px}
+	75%{background-color: Crimson; left: 200px; top: 0px}
+	100%{background-color: IndianRed; left: 0px; top: 0px}
+}
+#d4{
+animation-name: example4;
+position: relative;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: reverse;
+}
+@keyframes example5{
+	0%{background-color: MediumSeaGreen; left: 0px; top: 0px}
+	25%{background-color: LimeGreen; left: 200px; top: 0px}
+	50%{background-color: Lime; left: 200px; top: 200px}
+	75%{background-color: SpringGreen; left: 200px; top: 0px}
+	100%{background-color: MediumSpringGreen; left: 0px; top: 0px}
+}
+#d5{
+animation-name: example5;
+position: relative;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes example6{
+	0%{background-color: MediumVioletRed; left: 0%; top: 0%}
+	100%{background-color: LightPink; left: 100%; top: 0%}
+}
+#d6{
+animation-name: example6;
+position: relative;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: ease;
+}
+@keyframes example7{
+	0%{background-color: DarkSlateBlue; left: 0%; top: 0%}
+	100%{background-color: Violets; left: 100%; top: 0%}
+}
+#d7{
+animation-name: example7;
+position: relative;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+@keyframes example8{
+	0%{background-color: OrangeRed; left: 0%; top: 0%}
+	100%{background-color: Yellow; left: 100%; top: 0%}
+}
+#d8{
+animation-name: example8;
+position: relative;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+}
+@keyframes example9{
+	0%{background-color: MediumSeaGreen; left: 0%; top: 0%}
+	100%{background-color: Lime; left: 100%; top: 0%}
+}
+#d9{
+animation-name: example9;
+position: relative;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-out;
+}
+@keyframes example10{
+	0%{background-color: Maroon; left: 0%; top: 0%}
+	100%{background-color: LightSalmon; left: 100%; top: 0%}
+}
+#d10{
+animation-name: example10;
+position: relative;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+@keyframes example11{
+	0%{background-color: DeepPink; left: 0%; top: 0%}
+	100%{background-color: Purple; left: 100%; top: 0%}
+}
+#d11{
+animation-name: example11;
+position: relative;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-fill-mode: forwards;
+}

@@ -1,0 +1,33 @@
+body{
+	background-color: lightsteelblue;
+	background-image: url(https://www.icegif.com/wp-content/uploads/icegif-4790.gif);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+p{
+	font-size: 0.8in;
+	background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+background-size: cover;
+color: blueviolet;
+text-align: center;
+
+}
+div{
+	height: 360px;
+	width: 500px;
+	margin: 20px;
+}
+#d1{
+	background-image: url(https://t3.ftcdn.net/jpg/03/09/85/36/360_F_309853648_yJJrVCYncv1D4raXzSH39WUlrRMLEwv3.jpg);
+border: ridge 20px brown;
+}
+#d2{
+	background-image: url(https://t3.ftcdn.net/jpg/03/09/85/36/360_F_309853648_yJJrVCYncv1D4raXzSH39WUlrRMLEwv3.jpg);
+border: solid 30px;
+border-image: linear-gradient(pink,beige) 30;
+}
+#img1{
+	width: 30%;
+}
+

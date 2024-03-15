@@ -1,0 +1,92 @@
+body{
+	background-color: lightseagreen;
+}
+p{
+	font-size: 50px;
+	background-color: lightpink;
+}
+.p1{
+	display: inline-block;	
+}
+.s1{
+	border: dotted 2px fuchsia;
+	display: block;
+}
+#first{
+	width: 500px;
+	height: 500px;
+	background-color: fuchsia;
+	border: ridge 20px white;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-width: 20px;
+	border-left: dotted red 20px;
+	border-right: dashed orange 20px;
+	border-bottom: groove yellow 20px;
+	border-top: ridge pink 20px;
+	margin: 50px;
+	border-radius: 10% 20%;
+}
+#second{
+	width: 700px;
+	height: 700px;
+	background-color: white;
+	border: groove 20px fuchsia;
+	font-size: 50px;
+	text-align: center;
+	padding: 50px;
+	border-style: dotted dashed;
+	border-color: purple ;
+	border-right: 10% 20% ;
+}
+#third,#forth{
+	width: 800px;
+	height: 200px;
+	border: dashed 10px red;
+	margin: 20px;
+}
+#third{
+	width: 400px;
+	right: 400px;
+	background-color: red;
+	border-top: dotted 22px LightCoral;
+	border-right: dashed 25px purple;
+	text-align: right;
+}
+#forth{
+	width: 500px;
+	right: 500px;
+	background-color: lightblue;
+	border-bottom: dashed 25px yellow;
+	text-align: left;
+}
+#fifth{
+	width: 600px;
+	height: 500px;
+	padding: 20px;
+	padding-left: 30px;
+	text-align: center;
+	border: ridge 20px silver;
+	margin: 40px;
+	background-color: red;
+}
+#sixth{
+	width: 500px;
+	height: 400px;
+	padding: 20px;
+	padding-left: 30px;
+	text-align: center;
+	border: ridge 20px silver;
+	background-color: Firebrick;
+}
+#seventh{
+	width:400px;
+	height: 300px;
+	padding: 20px;
+	padding-left: 30px;
+	text-align: center;
+	border: ridge 20px silver;
+	background-color: LightCoral;
+}
